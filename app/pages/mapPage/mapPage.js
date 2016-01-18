@@ -16,7 +16,7 @@ export class MapPage {
 
 		this.platform.ready().then(() => {
 
-			let locationOptions = {timeout: 10000, enableHighAccuracy: true};
+			let locationOptions = {timeout: 20000, enableHighAccuracy: true};
 
 			navigator.geolocation.getCurrentPosition(
 
