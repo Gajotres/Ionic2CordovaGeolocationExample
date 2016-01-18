@@ -1,0 +1,2 @@
+# Ionic2CordovaGeolocationExample
+Ionic2CordovaGeolocationExample
