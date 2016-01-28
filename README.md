@@ -1,13 +1,12 @@
-## This is a Ionic 2 tutorial example made for www.gajotres.net
+### This is a Ionic 2 tutorial example made for http://www.gajotres.net/ionic-2-having-fun-with-cordova-geolocation-plugin
 
-1. Download this example
+Follow these instruction to deploy this example:
 
-2. Update Ionic and Cordova
-
-    npm install -g cordova ionic@beta
-
-3. Generate a blank Ionic 2 template
-
-    ionic start Ionic2CordovaGeolocationExample blank --v2
-
-4. Copy content of a www and app project into a newly generated project
+1. git clone https://github.com/Gajotres/Ionic2CordovaGeolocationExample.git
+2. cd Ionic2CordovaGeolocationExample
+3. ionic platform add android
+4. cordova plugin add cordova-plugin-geolocation
+5. cordova plugin add cordova-plugin-whitelist
+6. npm install
+7. ionic serve -> To see if everything is working as it should
+8. ionic run android -l -c -s
